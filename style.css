@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+* {
+    font-family: 'Space Mono', monospace;
+    background: #c5e4e7;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+form {
+    background-color: white;
+    height: 780px;
+    border-radius: 10px;
+    width: 98%;
+    margin: 1%;
+}
+
+h2 {
+    width: 90%;
+    text-align: center;
+    background-color: #c5e4e7;
+    line-height: 2;
+    margin-left: 5%;
+}
+
+p {
+    background: white;
+    margin-left: 5%;
+}
+
+#beudeu {
+    background: white;
+}
+
+#bill {
+    display: inline-block;
+    width: 70%;
+    height: 28px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+    background-image: url(icon-dollar.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
+
+#klikbl {
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+}
+
+#klikbl div {
+    display: inline-block;
+    text-align: center;
+    padding-top: 4%;
+    font-size: 20px;
+    width: 40%;
+    height: 40px;
+    margin: 2%;
+    border: none;
+    background: #00474b;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#klikbl div:active {
+    background-color: aqua;
+}
+
+#klikbl #custom {
+    background-color: #ffffff;
+    color: gray;
+    height: 45px;
+    width: 39%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 19px;
+    border: none;
+}
+
+#numberOfpeople {
+    width: 70%;
+    height: 38px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+    background-image: url(icon-person.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
+
+#rez {
+    background: #00484b;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+}
+
+#rez,
+#leva {
+    background-color: #00484b;
+    padding-top: 0.5%;
+    margin: 5% 5% 0% 5%;
+}
+
+#leva {
+    display: inline-block;
+    width: 40%;
+}
+
+#bt {
+    background-color: #00484b;
+    margin: 10% 10% 10% 0%;
+}
+
+#btk {
+    background-color: #00484b;
+    color: gray;
+    font-size: 12px;
+    padding: 0% 0% 10% 0%;
+}
+
+p {
+    margin-left: 5%;
+    color: gray;
+    font-size: 15px;
+    width: 40%;
+    display: inline-block;
+}
+
+input {
+    background-color: #f4f8fb;
+}
+
+img {
+    background: #f4f8fb;
+}
+
+#logo {
+    margin: 2%;
+    margin-left: 35%;
+    background-color: #c5e4e7;
+}
+
+#dlrSign {
+    margin-left: 15%;
+}
+
+#resti {
+    width: 75%;
+    margin: -2% 0% 0% 12.5%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: #26c2ad;
+    font-size: 21px;
+}
+
+.attribution {
+    margin: 15% 10% 0% 10%;
+    width: 80%;
+    text-align: center;
+}
+
+#desn {
+    display: inline-block;
+    background-color: #00484b;
+    color: #1bc1a9;
+    background: transparent;
+    background-color: #00484b;
+}
+
+#rezPru {
+    float: left;
+    padding: 0% 0% 40% 0%;
+    background-color: #00484b;
+}
+
+#rezDrug {
+    background-color: #00484b;
+    padding: 0% 0% 0% 0%;
+}
+
+#zero {
+    float: right;
+    color: red;
+    background: transparent;
+    font-size: 15px;
+    width: 40%;
+    margin: 5%;
+    display: none;
+}
+
+#zeroena {
+    float: right;
+    color: red;
+    background: transparent;
+    font-size: 15px;
+    width: 40%;
+    margin: 5%;
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+    * {
+        background:
+    }
+    form {
+        margin-left: 15%;
+        width: 70%;
+        height: 480px;
+    }
+    #beudeu {
+        margin-left: 10%;
+        display: inline-block;
+        width: 40%;
+        float: left;
+    }
+    #rez {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        height: 350px;
+    }
+    #resti {
+        margin: 15% 10% 0% 10%;
+    }
+    #logo {
+        margin-left: 50%;
+    }
+    @media only screen and (max-width: 925px) and (min-width: 750px) {
+        #rezPru {
+            margin: 0% 0% 100% 0%;
+            font-size: 19px;
+        }
+        #rezDrug {
+            margin: 0% -10% 0% 0%;
+            font-size: 19px;
+        }
+    }
+}
